@@ -90,9 +90,9 @@ if st.session_state['chat_history']:
 
 # Sidebar for additional information
 with st.sidebar:
-    st.markdown("### About the Gemini AI Q&A Chatbot")
+    st.markdown("### About ProboTutor - Q&A Chatbot using Gemini AI")
     st.markdown("""
-        The Gemini AI Chatbot is powered by **Google's Gemini AI** to provide intelligent, real-time responses to your questions.
+        The Gemini AI Chatbot is powered by **Google's ProboTutor - Q&A Chatbot using Gemini AI** to provide intelligent, real-time responses to your questions.
         It uses state-of-the-art Generative AI models to generate thoughtful answers based on your input.
     """)
     st.markdown("#### Features:")
