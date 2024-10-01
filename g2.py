@@ -88,6 +88,7 @@ if st.session_state['chat_history']:
             else:
                 message(chat['message'], is_user=False, key=f"bot_{index}")
 
+
 # Sidebar for additional information
 with st.sidebar:
     st.markdown("### About ProboTutor - Q&A Chatbot using Gemini AI")
